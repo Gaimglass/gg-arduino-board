@@ -378,6 +378,58 @@ megaADK.build.variant=mega
 
 ##############################################################
 
+gaimglass.name=Gaimglass Pro
+gaimglass.vid.0=0x2341
+gaimglass.pid.0=0x0036
+gaimglass.vid.1=0x2341
+gaimglass.pid.1=0x8036
+gaimglass.vid.2=0x2A03
+gaimglass.pid.2=0x0036
+gaimglass.vid.3=0x2A03
+gaimglass.pid.3=0x8036
+gaimglass.upload_port.0.vid=0x2341
+gaimglass.upload_port.0.pid=0x0036
+gaimglass.upload_port.1.vid=0x2341
+gaimglass.upload_port.1.pid=0x8036
+gaimglass.upload_port.2.vid=0x2A03
+gaimglass.upload_port.2.pid=0x0036
+gaimglass.upload_port.3.vid=0x2A03
+gaimglass.upload_port.3.pid=0x8036
+gaimglass.upload_port.4.board=gaimglass
+
+gaimglass.upload.tool=avrdude
+gaimglass.upload.tool.default=avrdude
+gaimglass.upload.tool.network=arduino_ota
+gaimglass.upload.protocol=avr109
+gaimglass.upload.maximum_size=28672
+gaimglass.upload.maximum_data_size=2560
+gaimglass.upload.speed=57600
+gaimglass.upload.disable_flushing=true
+gaimglass.upload.use_1200bps_touch=true
+gaimglass.upload.wait_for_upload_port=true
+
+gaimglass.bootloader.tool=avrdude
+gaimglass.bootloader.tool.default=avrdude
+gaimglass.bootloader.low_fuses=0xff
+gaimglass.bootloader.high_fuses=0xd8
+gaimglass.bootloader.extended_fuses=0xcb
+gaimglass.bootloader.file=caterina/Caterina-Leonardo.hex
+gaimglass.bootloader.unlock_bits=0x3F
+gaimglass.bootloader.lock_bits=0x2F
+
+gaimglass.build.mcu=atmega32u4
+gaimglass.build.f_cpu=16000000L
+gaimglass.build.vid=0x2341
+gaimglass.build.pid=0x8036
+gaimglass.build.usb_product="Gaimglass Pro"
+gaimglass.build.usb_manufacturer="Gaimglass"
+gaimglass.build.board=GAIMGLASS
+gaimglass.build.core=arduino
+gaimglass.build.variant=gaimglass
+gaimglass.build.extra_flags={build.usb_flags}
+
+##############################################################
+
 leonardo.name=Arduino Leonardo
 leonardo.vid.0=0x2341
 leonardo.pid.0=0x0036
