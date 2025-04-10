@@ -6,7 +6,7 @@ This will allow you to set up the Gaimglass PRO board in the Arduino IDE as such
 ![Screenshot 2024-11-15 125109](boards.png)
 
 
-## How to install locally
+## Install Arduino IDE
 
 ### 1. Install the Arduino IDE 2.3.x locally.
 
@@ -43,7 +43,7 @@ You can see the diff of these 3 files here https://github.com/Gaimglass/gg-ardui
 
 
 
-### To upload the the Gaimglass sketch
+## Upload the the Gaimglass sketch
 
 1. Unplug the LED from the Gaimglass PCBA. This allows the ATMega to reboot into the bootloader on a separate COM port. 
 
