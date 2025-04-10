@@ -43,6 +43,27 @@ You can see the diff of these 3 files here https://github.com/Gaimglass/gg-ardui
 
 
 
+### To upload the the Gaimglass sketch
+
+1. Unplug the LED from the Gaimglass PCBA. This allows the ATMega to reboot into the bootloader on a separate COM port. 
+
+2. Ensure nothing is using the same COM port at the device such as the Gaimglass electron app. Close it if needed.
+
+3. Open the Arduino IDE and click "Open" and find the [gaimglass-sketch.ino](https://github.com/Gaimglass/gg-sketch/blob/main/gaimglass-sketch/gaimglass-sketch.ino) file
+
+
+4. Click the Upload button. This will automatically build then then upload the sketch on the bootloader COM port.
+
+![alt text](image.png)
+
+5. When its finished, you may see an error but if it says "Done Uploading" in the bottom right, then it worked. Just ignore the error.
+
+![alt text](image-1.png)
+
+6. Plug the LED back in. All the Gaimglass buttons and features should how work.
+
+
+
 ## Trouble shooting
 [Install Directory](https://forum.arduino.cc/t/ide-2-0-2-install-directory-missing/1056414/3)
 
